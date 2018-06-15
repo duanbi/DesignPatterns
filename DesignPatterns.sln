@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00 【文档】Document", "00 【文档】Document", "{B5100B20-5D34-468E-8A3D-855562ADF15A}"
+	ProjectSection(SolutionItems) = preProject
+		简介.MD = 简介.MD
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 【工厂方法模式】Factory Method Pattern", "03 【工厂方法模式】Factory Method Pattern", "{82580DA3-37BA-4CB8-92B0-E14A0ED7E11D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethodPattern", "FactoryMethodPattern\FactoryMethodPattern.csproj", "{C3630468-2846-464F-A4ED-6D1753A668A4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 【抽象工厂模式】Abstract Factory Pattern", "04 【抽象工厂模式】Abstract Factory Pattern", "{58633814-E6AB-4853-B705-DEA2865E0146}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactoryPattern", "AbstractFactoryPattern\AbstractFactoryPattern.csproj", "{B5C01D89-DBB2-4C50-A68F-30C8E40F0A71}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 【单例模式】 Singleton Pattern", "01 【单例模式】 Singleton Pattern", "{52CF030A-8BF0-4D3F-A90B-7696EBB268D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonPattern", "SingletonPattern\SingletonPattern.csproj", "{0BF944CD-6E02-4410-8012-D0B561CB16BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 【简单工厂模式】Simple Factory Pattern", "02 【简单工厂模式】Simple Factory Pattern", "{B7AF08A8-AE1B-400E-A2C0-60AA0E769F1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleFactoryPattern", "SimpleFactoryPattern\SimpleFactoryPattern.csproj", "{01ADAE31-B41A-4BF1-9BA2-1ED8A9DAB274}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C3630468-2846-464F-A4ED-6D1753A668A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3630468-2846-464F-A4ED-6D1753A668A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3630468-2846-464F-A4ED-6D1753A668A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3630468-2846-464F-A4ED-6D1753A668A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5C01D89-DBB2-4C50-A68F-30C8E40F0A71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5C01D89-DBB2-4C50-A68F-30C8E40F0A71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5C01D89-DBB2-4C50-A68F-30C8E40F0A71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5C01D89-DBB2-4C50-A68F-30C8E40F0A71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BF944CD-6E02-4410-8012-D0B561CB16BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BF944CD-6E02-4410-8012-D0B561CB16BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BF944CD-6E02-4410-8012-D0B561CB16BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BF944CD-6E02-4410-8012-D0B561CB16BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01ADAE31-B41A-4BF1-9BA2-1ED8A9DAB274}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01ADAE31-B41A-4BF1-9BA2-1ED8A9DAB274}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01ADAE31-B41A-4BF1-9BA2-1ED8A9DAB274}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01ADAE31-B41A-4BF1-9BA2-1ED8A9DAB274}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C3630468-2846-464F-A4ED-6D1753A668A4} = {82580DA3-37BA-4CB8-92B0-E14A0ED7E11D}
+		{B5C01D89-DBB2-4C50-A68F-30C8E40F0A71} = {58633814-E6AB-4853-B705-DEA2865E0146}
+		{0BF944CD-6E02-4410-8012-D0B561CB16BD} = {52CF030A-8BF0-4D3F-A90B-7696EBB268D7}
+		{01ADAE31-B41A-4BF1-9BA2-1ED8A9DAB274} = {B7AF08A8-AE1B-400E-A2C0-60AA0E769F1F}
+	EndGlobalSection
+EndGlobal
