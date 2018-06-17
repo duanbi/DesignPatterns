@@ -32,6 +32,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06 【原型模式】Protot
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrototypePattern", "PrototypePattern\PrototypePattern.csproj", "{40E9035C-209B-42DE-81E9-5C608BA9F6B7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07 【适配器模式】Adapter Pattern", "07 【适配器模式】Adapter Pattern", "{4977E7B2-5732-42CD-B37D-263301FFBFB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterPattern", "AdapterPattern\AdapterPattern.csproj", "{EC07683C-24C8-4625-9C8C-5B134726D58D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -62,6 +66,10 @@ Global
 		{40E9035C-209B-42DE-81E9-5C608BA9F6B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40E9035C-209B-42DE-81E9-5C608BA9F6B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40E9035C-209B-42DE-81E9-5C608BA9F6B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC07683C-24C8-4625-9C8C-5B134726D58D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC07683C-24C8-4625-9C8C-5B134726D58D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC07683C-24C8-4625-9C8C-5B134726D58D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC07683C-24C8-4625-9C8C-5B134726D58D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -73,6 +81,7 @@ Global
 		{01ADAE31-B41A-4BF1-9BA2-1ED8A9DAB274} = {B7AF08A8-AE1B-400E-A2C0-60AA0E769F1F}
 		{A64C5AF1-4CC4-46D5-BAB4-231558020DC2} = {14725CD9-4771-464C-B9DE-980DD4F2BD91}
 		{40E9035C-209B-42DE-81E9-5C608BA9F6B7} = {EEC6EAD7-EED3-4493-9E88-1E1B16D0AD06}
+		{EC07683C-24C8-4625-9C8C-5B134726D58D} = {4977E7B2-5732-42CD-B37D-263301FFBFB4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9266E083-0F8E-4A5A-B783-CD804B52F70D}
