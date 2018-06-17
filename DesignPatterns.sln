@@ -28,6 +28,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05 【建造模式】Builde
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderPattern", "BuilderPattern\BuilderPattern.csproj", "{A64C5AF1-4CC4-46D5-BAB4-231558020DC2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06 【原型模式】Prototype Pattern", "06 【原型模式】Prototype Pattern", "{EEC6EAD7-EED3-4493-9E88-1E1B16D0AD06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrototypePattern", "PrototypePattern\PrototypePattern.csproj", "{40E9035C-209B-42DE-81E9-5C608BA9F6B7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -54,6 +58,10 @@ Global
 		{A64C5AF1-4CC4-46D5-BAB4-231558020DC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A64C5AF1-4CC4-46D5-BAB4-231558020DC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A64C5AF1-4CC4-46D5-BAB4-231558020DC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40E9035C-209B-42DE-81E9-5C608BA9F6B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40E9035C-209B-42DE-81E9-5C608BA9F6B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40E9035C-209B-42DE-81E9-5C608BA9F6B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40E9035C-209B-42DE-81E9-5C608BA9F6B7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -64,6 +72,7 @@ Global
 		{0BF944CD-6E02-4410-8012-D0B561CB16BD} = {52CF030A-8BF0-4D3F-A90B-7696EBB268D7}
 		{01ADAE31-B41A-4BF1-9BA2-1ED8A9DAB274} = {B7AF08A8-AE1B-400E-A2C0-60AA0E769F1F}
 		{A64C5AF1-4CC4-46D5-BAB4-231558020DC2} = {14725CD9-4771-464C-B9DE-980DD4F2BD91}
+		{40E9035C-209B-42DE-81E9-5C608BA9F6B7} = {EEC6EAD7-EED3-4493-9E88-1E1B16D0AD06}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9266E083-0F8E-4A5A-B783-CD804B52F70D}
