@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00 【文档】Document", "00 【文档】Document", "{B5100B20-5D34-468E-8A3D-855562ADF15A}"
 	ProjectSection(SolutionItems) = preProject
@@ -23,6 +23,10 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 【简单工厂模式】Simple Factory Pattern", "02 【简单工厂模式】Simple Factory Pattern", "{B7AF08A8-AE1B-400E-A2C0-60AA0E769F1F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleFactoryPattern", "SimpleFactoryPattern\SimpleFactoryPattern.csproj", "{01ADAE31-B41A-4BF1-9BA2-1ED8A9DAB274}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05 【建造模式】Builder Pattern", "05 【建造模式】Builder Pattern", "{14725CD9-4771-464C-B9DE-980DD4F2BD91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderPattern", "BuilderPattern\BuilderPattern.csproj", "{A64C5AF1-4CC4-46D5-BAB4-231558020DC2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -46,6 +50,10 @@ Global
 		{01ADAE31-B41A-4BF1-9BA2-1ED8A9DAB274}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01ADAE31-B41A-4BF1-9BA2-1ED8A9DAB274}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01ADAE31-B41A-4BF1-9BA2-1ED8A9DAB274}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A64C5AF1-4CC4-46D5-BAB4-231558020DC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A64C5AF1-4CC4-46D5-BAB4-231558020DC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A64C5AF1-4CC4-46D5-BAB4-231558020DC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A64C5AF1-4CC4-46D5-BAB4-231558020DC2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -55,5 +63,9 @@ Global
 		{B5C01D89-DBB2-4C50-A68F-30C8E40F0A71} = {58633814-E6AB-4853-B705-DEA2865E0146}
 		{0BF944CD-6E02-4410-8012-D0B561CB16BD} = {52CF030A-8BF0-4D3F-A90B-7696EBB268D7}
 		{01ADAE31-B41A-4BF1-9BA2-1ED8A9DAB274} = {B7AF08A8-AE1B-400E-A2C0-60AA0E769F1F}
+		{A64C5AF1-4CC4-46D5-BAB4-231558020DC2} = {14725CD9-4771-464C-B9DE-980DD4F2BD91}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9266E083-0F8E-4A5A-B783-CD804B52F70D}
 	EndGlobalSection
 EndGlobal

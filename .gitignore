@@ -186,3 +186,7 @@ UploadFile/
 .vs/config/applicationhost.config
 .vs/config/applicationhost.config
 .vs/config/applicationhost.config
+.vs/DesignPatterns/v15/Server/sqlite3/db.lock
+.vs/DesignPatterns/v15/Server/sqlite3/storage.ide
+.vs/DesignPatterns/v15/Server/sqlite3/storage.ide-shm
+.vs/DesignPatterns/v15/Server/sqlite3/storage.ide-wal
